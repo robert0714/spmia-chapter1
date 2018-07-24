@@ -18,8 +18,10 @@ If everything builds successfully you should see a message indicating that the b
 # Running the Application for Chapter 1
 
 Now we are going to use docker-compose to start the actual image.  To start the docker image,
-change to the docker-compose directory in your chapter 1 source code.  Issue the following docker-compose command:
+change to the directory containing  your chapter 1 source code.  Issue the following docker-compose command:
 
    **docker-compose -f docker/common/docker-compose.yml up**
 
 If everything starts correctly you should see a bunch of spring boot information fly by on standard out.  At this point all of the services needed for the chapter code examples will be running.
+
+example url link:   **http://localhost:8080/hello/robert/lee**
