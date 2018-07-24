@@ -23,3 +23,5 @@ change to the directory containing  your chapter 1 source code.  Issue the follo
    **docker-compose -f docker/common/docker-compose.yml up**
 
 If everything starts correctly you should see a bunch of spring boot information fly by on standard out.  At this point all of the services needed for the chapter code examples will be running.
+
+example url link:   **http://localhost:8080/hello/robert/lee**
